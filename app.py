@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load model and scaler
-model = pickle.load(open("kmeans_model.pkl", "rb"))
+model = pickle.load(open("model.pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))
 
 st.title("Customer Personality Segmentation")
